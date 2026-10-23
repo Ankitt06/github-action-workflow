@@ -1,0 +1,14 @@
+name: Ankit Mohanty
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  jobname:
+    runs-on: ubuntu-latest
+    
+    steps:
+     - name: ActionTaken
+       run: echo "I am running Github actions"
+    
